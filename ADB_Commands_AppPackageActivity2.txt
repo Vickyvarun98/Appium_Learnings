@@ -1,0 +1,5 @@
+Executing Command: adb shell dumpsys window | find "mCurrentFocus"
+ERROR: find: 'mCurrentFocus': No such file or directory
+ERROR: Failed to write while dumping service window: Broken pipe
+
+======================================

@@ -1,0 +1,4 @@
+Executing Command: adb shell dumpsys window | grep mCurrentFocus
+  mCurrentFocus=Window{7cca009 u0 com.hm.goe/com.hm.goe.app.home.HomeActivity}
+
+======================================

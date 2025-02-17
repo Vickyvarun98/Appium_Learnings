@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="port" value="8200"/>
+    <parameter name="deviceName" value="vivo V21e 5G"/>
+    <parameter name="UDID" value="1360431040000HV"/>
+    <classes>
+      <class name="appiumpack1.serverStart_ToastTest">
+        <methods>
+          <include name="generalstore1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- appiumpack1.serverStart_ToastTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
